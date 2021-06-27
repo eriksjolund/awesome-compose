@@ -1,4 +1,4 @@
-FROM golang:1.13 AS build
+FROM docker.io/library/golang:1.13 AS build
 
 WORKDIR /compose/hello-docker
 COPY main.go main.go
